@@ -13,6 +13,9 @@ nav {
   color: white;
   padding: 1em;
 }
+nav ul a:hover {
+  color: blue;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -28,6 +31,11 @@ nav ul li a {
   color: #1a1a1a;
   text-decoration: none;
 }
+nav img {
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: #f4f4f4;
   padding: 0.5em;
@@ -35,10 +43,24 @@ header {
   background-color: #00dbde;
   background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
 }
-header img{
+header img {
   border-radius: 8px;
 }
-  
+.jobs {
+  display: grid;
+  gap: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.box {
+  text-align: center;
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+}
+
 main {
   padding: 1.5em;
   margin: 0;
