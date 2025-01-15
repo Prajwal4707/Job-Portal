@@ -86,7 +86,7 @@ footer {
 .slider {
   position: relative;
   height: 60%;
-  width: 100%;
+  width: 99%;
   margin: auto;
   overflow: hidden;
   border: 2px solid #ccc;
@@ -102,6 +102,7 @@ footer {
 .slide img {
   width: 98%;
   display: block;
+  position: relative;
   height: 330px;
 }
 .prev,
