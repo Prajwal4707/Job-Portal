@@ -1,4 +1,4 @@
-*{
+* {
   margin: 2px;
   padding: 3px;
   /* box-sizing: border-box; */
@@ -100,8 +100,9 @@ footer {
   box-sizing: border-box;
 }
 .slide img {
-  width: 100%;
+  width: 98%;
   display: block;
+  height: 330px;
 }
 .prev,
 .next {
