@@ -36,6 +36,7 @@ nav ul li a {
   color: #1a1a1a;
   text-decoration: none;
 }
+
 nav img {
   border-radius: 5px;
   margin: 0;
@@ -51,12 +52,19 @@ header {
 header img {
   border-radius: 8px;
 }
+#R{
+  display: flexbox;
+  justify-content: space-between;
+  /* color: #fff; */
+  align-items: flex-end;
+  
+}
 .jobs {
   display: grid;
-  gap: 10px;
+  gap: 20px;
   background-color: #f4f4f4;
-  padding: 10px;
-  margin-bottom: 10px;
+  /* padding: 10px; */
+  /* margin-bottom: 10px; */
 }
 .box {
   text-align: center;
@@ -100,7 +108,7 @@ footer {
   box-sizing: border-box;
 }
 .slide img {
-  width: 98%;
+  width: 99%;
   display: block;
   position: relative;
   height: 330px;
