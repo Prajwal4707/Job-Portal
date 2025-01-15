@@ -1,3 +1,8 @@
+*{
+  margin: 2px;
+  padding: 3px;
+  /* box-sizing: border-box; */
+}
 body {
   font-family: "Noto Sans", serif;
   font-optical-sizing: auto;
@@ -66,8 +71,9 @@ main {
   margin: 0;
 }
 main h3 {
-  padding: 0;
-  margin: 0;
+  padding: 3px;
+  margin: 2px;
+  font-size: larger;
 }
 footer {
   background-color: #333;
